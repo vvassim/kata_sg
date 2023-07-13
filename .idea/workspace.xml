@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d6c425f9-84eb-4b3f-868a-c666d20dd4f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a1e3ea6257f0d8a91084a14caa7f8517e7743e7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/404e4b79624f440cdda1a6d7aa572cf4a41a50c2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/a/0a1e3ea6257f0d8a91084a14caa7f8517e7743e7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/0/404e4b79624f440cdda1a6d7aa572cf4a41a50c2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/org/sg/kata/application/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/org/sg/kata/application/adapters/AccountInMemoryDataAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/org/sg/kata/application/adapters/StatementLineInMemoryDataAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/org/sg/kata/application/adapters/StatementPrinterLogAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/org/sg/kata/application/cli/AccountCli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/test/java/org/sg/kata/application/adapters/AccountInMemoryDataAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/test/java/org/sg/kata/application/adapters/StatementLineInMemoryDataAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/test/java/org/sg/kata/application/adapters/StatementPrinterLogAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/test/java/org/sg/kata/application/cli/AccountCliTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/core/AccountOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/core/AccountStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/core/AccountTransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/core/BalanceManger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/exceptions/InsufficientBalanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/model/AccountBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/model/AccountTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/model/StatementLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/model/enums/AccountTransactionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/model/enums/AccountTransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/ports/AccountInMemoryDataPort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/ports/StatementLineInMemoryDataPort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/ports/StatementPrinterLogPort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/service/AccountServiceFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/usecases/AccountStatementUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/usecases/DepositUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/usecases/WithdrawalUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/test/java/org/sg/kata/domain/core/AccountOperationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/test/java/org/sg/kata/domain/core/AccountStatementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/test/java/org/sg/kata/domain/core/AccountTransactionManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/test/java/org/sg/kata/domain/core/BalanceMangerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/test/java/org/sg/kata/domain/service/AccountServiceFacadeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SLVoumCItwdgTY1Yd0zlXq63m1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/vvassim/Desktop/sg-kata",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vvassim\Desktop\banking-kata-sg\application" />
+      <recent name="C:\Users\vvassim\Desktop\banking-kata-sg\application\src\main\java\org\sg\kata\application\adapters\h2adapters" />
+      <recent name="C:\Users\vvassim\Desktop\banking-kata-sg\domain\src\main\java\org\sg\kata\domain\usecases" />
+      <recent name="C:\Users\vvassim\Desktop\banking-kata-sg\domain\src\main\java\org\sg\kata\domain\model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vvassim\Desktop\banking-kata-sg\domain\src\main\resources" />
+      <recent name="C:\Users\vvassim\Desktop\banking-kata-sg\application\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.sg.kata.application.cli" />
+      <recent name="org.sg.kata.application.adapters" />
+      <recent name="org.sg.kata.domain.service" />
+      <recent name="org.sg.kata.domain.core" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.sg.kata.application.adapters.h2adapters" />
+      <recent name="org.sg.kata.domain.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AccountCliTest.deposit">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="58373d62-dcf2-42a5-a3fa-f329a0ef919a" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sg.kata.application.Main" />
+      <module name="application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountCliTest.deposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sg.kata.application.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sg.kata.application.cli" />
+      <option name="MAIN_CLASS_NAME" value="org.sg.kata.application.cli.AccountCliTest" />
+      <option name="METHOD_NAME" value="deposit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountInMemoryDataAdapterTest.createAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sg.kata.application.adapters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sg.kata.application.adapters" />
+      <option name="MAIN_CLASS_NAME" value="org.sg.kata.application.adapters.AccountInMemoryDataAdapterTest" />
+      <option name="METHOD_NAME" value="createAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceFacadeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sg.kata.domain.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sg.kata.domain.service" />
+      <option name="MAIN_CLASS_NAME" value="org.sg.kata.domain.service.AccountServiceFacadeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatementLineInMemoryDataAdapterTest.createAccountStatement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sg.kata.application.adapters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sg.kata.application.adapters" />
+      <option name="MAIN_CLASS_NAME" value="org.sg.kata.application.adapters.StatementLineInMemoryDataAdapterTest" />
+      <option name="METHOD_NAME" value="createAccountStatement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatementPrinterLogAdapterTest.printStatementLines_whenCalled_thenCallPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sg.kata.application.adapters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sg.kata.application.adapters" />
+      <option name="MAIN_CLASS_NAME" value="org.sg.kata.application.adapters.StatementPrinterLogAdapterTest" />
+      <option name="METHOD_NAME" value="printStatementLines_whenCalled_thenCallPrint" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.AccountCliTest.deposit" />
+      <item itemvalue="JUnit.AccountInMemoryDataAdapterTest.createAccount" />
+      <item itemvalue="JUnit.StatementLineInMemoryDataAdapterTest.createAccountStatement" />
+      <item itemvalue="JUnit.StatementPrinterLogAdapterTest.printStatementLines_whenCalled_thenCallPrint" />
+      <item itemvalue="JUnit.AccountServiceFacadeTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountCliTest.deposit" />
+        <item itemvalue="JUnit.StatementPrinterLogAdapterTest.printStatementLines_whenCalled_thenCallPrint" />
+        <item itemvalue="JUnit.StatementLineInMemoryDataAdapterTest.createAccountStatement" />
+        <item itemvalue="JUnit.AccountInMemoryDataAdapterTest.createAccount" />
+        <item itemvalue="JUnit.AccountServiceFacadeTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6c425f9-84eb-4b3f-868a-c666d20dd4f2" name="Changes" comment="" />
+      <created>1688926027692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688926027692</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/core/AccountStatement.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/domain/src/main/java/org/sg/kata/domain/core/AccountStatement.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
